@@ -7,7 +7,7 @@ let App=()=>{
         <h1>App Component</h1><hr />
         <Message/>
         <Message/>
-        <Message/>
+        
     </div>
 }
 export default App
