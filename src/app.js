@@ -1,5 +1,5 @@
 import React from 'react'
-import Message from "./Message/Message.jsx"
+import Message from "./Message Component/Message.jsx"
 
 //Fat Arrow Method
 let App=()=>{
