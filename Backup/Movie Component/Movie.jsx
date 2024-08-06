@@ -9,7 +9,7 @@ function Movie(){
         <h3>Movie_Name:{Movie_Name}</h3>
         <h3>Hero_Name:{Hero_Name}</h3>
         <p>Story:{Story}</p>
-        <img src={Movie_Image}  />
+        <img src={Movie_Image}/>
     </div>
 
 }
