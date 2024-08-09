@@ -6,7 +6,7 @@ let Employee=(props)=>{
         <h3>User Name:{props.User_Name}</h3>
         
         </div>
-}
+}   
 export default Employee
 
 // import React from "react";
