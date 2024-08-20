@@ -1,0 +1,11 @@
+.msgStyle2{
+    color: red;
+    background-color: rgb(199, 241, 13);
+}
+.hello{
+    width: 50pxl;
+    height: 300pxl;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
