@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
         <nav className='navbar navbar-dark bg-dark navbar-expand-lg' >
-          <a href="#" className='navbar-brand'>Routing EX</a>
+          <Link to="/index" className='navbar-brand'>Routing EX</Link>
           <div className='ml-auto'>
             <ul className='navbar-nav'>
               <li><Link to="/index" className='nav-link'>Home</Link></li>
@@ -15,7 +15,6 @@ const Navbar = () => {
               <li><Link to="/login" className='nav-link'>Login</Link></li>
             </ul>
           </div>
-          
         </nav>
         
     </div>

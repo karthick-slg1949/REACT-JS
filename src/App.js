@@ -1,10 +1,10 @@
 import NavbarLink from './Navbar/NavbarLink'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import Home from './Components/Home'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Service from './Components/Service'
-import Login from './Components/Login'
+import Home from './Navbar/RoutingComponents/Home'
+import About from './Navbar/RoutingComponents/About'
+import Contact from './Navbar/RoutingComponents/Contact'
+import Service from './Navbar/RoutingComponents/Service'
+import Login from './Navbar/RoutingComponents/Login'
 
 let App = ()=>{
   return <div>
@@ -16,8 +16,6 @@ let App = ()=>{
             <Route path="service" element={<Service/>}/>
             <Route path="contact" element={<Contact/>}/>
             <Route path="login" element={<Login/>}/>
-            
-            
         </Routes>
      </Router>
   </div>
