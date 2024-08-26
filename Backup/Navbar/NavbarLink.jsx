@@ -13,6 +13,8 @@ const Navbar = () => {
               <li><Link to="/contact" className='nav-link'>Contact</Link></li>
               <li><Link to="/service" className='nav-link'>Service</Link></li>
               <li><Link to="/login" className='nav-link'>Login</Link></li>
+              <li><Link to="/register" className='nav-link'>Register</Link></li>
+              {/* <li><Link to="/UserLogin" className='nav-link'>LOGIN</Link></li> */}
             </ul>
           </div>
         </nav>

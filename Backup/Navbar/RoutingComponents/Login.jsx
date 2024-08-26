@@ -1,12 +1,21 @@
+import axios from 'axios'
 import React, { useState } from 'react'
 
 const Login = () => {
   let [user,setuser]=useState({email:"",password:""})
+
   let emailHandler=(event)=>{
     setuser({...user,email:event.target.value})
   }
   let passwordHandler=(event)=>{
     setuser({...user,password:event.target.value})
+  }
+ let  submitHandler=(event)=>{
+  event.preventDefault();
+  console.log(user);
+  
+    // axios.post.then().catch()
+
   }
   return (
     <div className='container'>
@@ -15,7 +24,7 @@ const Login = () => {
         <div className='col-md-4'>
       <h2>Login Page</h2><hr />
       <pre>{JSON.stringify(user)}</pre>
-        <form>
+        <form onSubmit={submitHandler}>
           <div className='form-group'>
             <label htmlFor="">Email</label><input type="email" onChange={emailHandler} className='form-control'/><br />
           </div>
