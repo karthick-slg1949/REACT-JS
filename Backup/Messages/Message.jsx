@@ -11,7 +11,7 @@ let message=useSelector((state)=>{
 
 let gmHandler=()=>{
     dispatch(gmaction())
-}
+}   
 let gaHandler=()=>{
     dispatch(gaaction())
 }

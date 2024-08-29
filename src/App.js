@@ -1,15 +1,20 @@
 import React from 'react'
-import Message from './Messages/Message'
-import {store} from './REDUX/Store'
-import { Provider } from 'react-redux'
+import { Link,BrowserRouter } from 'react-router-dom'
+import Registration from './Component/Registration'
+import Hooks from './Hooks'
 
 const App = () => {
   return (
     <div>
-      <Provider store={store}>
-      <h1>App Component</h1><hr />
-      <Message/>
-      </Provider>
+      {/* <BrowserRouter>
+      <nav className='navbar expand-lg navbar-dark bg-dark '>
+        
+        <Link to='/index' className='navbar-brand '>Registration</Link>
+        
+      </nav>
+      <Registration/>
+      </BrowserRouter> */}
+      <Hooks/>
     </div>
   )
 }
